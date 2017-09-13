@@ -1,0 +1,61 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body {
+    /* needed to clear bottom content from navbar in footer */
+    margin-bottom: 65px;
+}
+
+h1 {
+    /* current  */
+    font-family: 'Poiret One';
+    font-size: 320%;
+    letter-spacing: 5px;
+}
+
+h2, body {
+    font-family: 'Muli', sans-serif;
+}
+
+h3 {
+    font-family: 'Poiret One', cursive;
+}
+
+.img-shadow {
+    box-shadow: 0 0 15px #727272;
+}
+
+/* styling for social links area in footer */
+.footer-text {
+    /* copy style from navbar-brand */
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+    /* add extra spacing for social links */
+    letter-spacing: 7px;
+}
+
+.footer-text a, .footer-text a:hover, .footer-text a:visited {
+    text-decoration: none;
+}
+
+/* switch text to centerd when down to one column */
+@media screen and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        text-align: center;
+    }
+}
+
+.carousel-inner img {
+    width: 100vw;
+    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
+    border: solid 4px #000;
+}
